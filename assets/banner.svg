@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="pin-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="blur-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      50% { transform: scale(1.15); opacity: 0.3; }
+      100% { transform: scale(0.95); opacity: 0.8; }
+    }
+    @keyframes float-node {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dash-flow {
+      0% { stroke-dashoffset: 40; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes glow-shift {
+      0% { opacity: 0.5; }
+      50% { opacity: 0.9; }
+      100% { opacity: 0.5; }
+    }
+    .pulsing-ring { animation: pulse-ring 3s infinite ease-in-out; transform-origin: 1000px 180px; }
+    .floating-card-1 { animation: float-node 4s infinite ease-in-out; }
+    .floating-card-2 { animation: float-node 5s infinite ease-in-out 1s; }
+    .grid-line { stroke: #334155; stroke-dasharray: 4 4; animation: dash-flow 8s linear infinite; }
+    .glow-element { animation: glow-shift 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Base Card Background -->
+  <rect width="1200" height="400" rx="20" fill="url(#bg-grad)"/>
+  
+  <!-- Subtle Grid Overlay -->
+  <g opacity="0.15">
+    <path d="M 0 50 L 1200 50 M 0 100 L 1200 100 M 0 150 L 1200 150 M 0 200 L 1200 200 M 0 250 L 1200 250 M 0 300 L 1200 300 M 0 350 L 1200 350" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M 100 0 L 100 400 M 200 0 L 200 400 M 300 0 L 300 400 M 400 0 L 400 400 M 500 0 L 500 400 M 600 0 L 600 400 M 700 0 L 700 400 M 800 0 L 800 400 M 900 0 L 900 400 M 1000 0 L 1000 400 M 1100 0 L 1100 400" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- Glowing Background Orbs -->
+  <circle cx="150" cy="100" r="180" fill="url(#accent-glow)" class="glow-element"/>
+  <circle cx="1000" cy="200" r="160" fill="url(#accent-glow)" class="glow-element"/>
+
+  <!-- Left Content Side -->
+  <g transform="translate(80, 0)">
+    <!-- Badge -->
+    <g transform="translate(0, 75)">
+      <rect width="210" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="105" y="21" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">📍 LOCAL SEO PLATFORM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="165" fill="url(#text-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" filter="url(#shadow)">
+      Awesome Local SEO
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="215" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600">
+      Curated Ecosystem &amp; Software Directory
+    </text>
+
+    <!-- Tagline Description -->
+    <text x="0" y="255" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400">
+      Top SaaS Suites • Self-Hosted Rank Trackers • GBP &amp; Geo-Grid Tools • Citation Managers
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 295)">
+      <!-- Pill 1 -->
+      <g>
+        <rect width="130" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+        <text x="65" y="22" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="600" text-anchor="middle">🎯 Map Packs</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(142, 0)">
+        <rect width="140" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+        <text x="70" y="22" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="600" text-anchor="middle">📊 Geo-Grids</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(294, 0)">
+        <rect width="140" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+        <text x="70" y="22" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="600" text-anchor="middle">⚡ Open-Source</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Visual Graphics: Geo Grid Map & Pins -->
+  <g transform="translate(920, 190)">
+    <!-- Animated Outer Pulse Ring -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#f43f5e" stroke-width="2" class="pulsing-ring"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="6 4" class="grid-line"/>
+
+    <!-- Map Grid Points (Heatmap Representation) -->
+    <g transform="translate(-60, -60)">
+      <!-- Row 1 -->
+      <circle cx="0" cy="0" r="7" fill="#22c55e" opacity="0.9"/>
+      <circle cx="60" cy="0" r="7" fill="#22c55e" opacity="0.9"/>
+      <circle cx="120" cy="0" r="7" fill="#eab308" opacity="0.9"/>
+      <!-- Row 2 -->
+      <circle cx="0" cy="60" r="7" fill="#22c55e" opacity="0.9"/>
+      <circle cx="60" cy="60" r="9" fill="#10b981" filter="url(#blur-glow)"/>
+      <circle cx="120" cy="60" r="7" fill="#22c55e" opacity="0.9"/>
+      <!-- Row 3 -->
+      <circle cx="0" cy="120" r="7" fill="#eab308" opacity="0.9"/>
+      <circle cx="60" cy="120" r="7" fill="#22c55e" opacity="0.9"/>
+      <circle cx="120" cy="120" r="7" fill="#f43f5e" opacity="0.9"/>
+    </g>
+
+    <!-- Center Pin Icon -->
+    <g transform="translate(-18, -45) scale(1.3)" class="floating-card-1" filter="url(#shadow)">
+      <path d="M14 0 C6.268 0 0 6.268 0 14 C0 24.5 14 36 14 36 C14 36 28 24.5 28 14 C28 6.268 21.732 0 14 0 Z" fill="url(#pin-grad)"/>
+      <circle cx="14" cy="13" r="6" fill="#ffffff"/>
+    </g>
+
+    <!-- Floating Stat Badge 1 -->
+    <g transform="translate(-190, -90)" class="floating-card-1" filter="url(#shadow)">
+      <rect width="120" height="42" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="15" y="18" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="600">LOCAL RANK</text>
+      <text x="15" y="34" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="800">#1 Map Pack</text>
+    </g>
+
+    <!-- Floating Stat Badge 2 -->
+    <g transform="translate(-210, 50)" class="floating-card-2" filter="url(#shadow)">
+      <rect width="130" height="42" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+      <text x="15" y="18" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="600">CITATIONS</text>
+      <text x="15" y="34" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="800">100% Synced</text>
+    </g>
+  </g>
+</svg>
