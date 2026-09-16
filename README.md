@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Local-SEO-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Local-SEO-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Local-SEO-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Local-SEO-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Local-SEO-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Local-SEO-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Local-SEO-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Local-SEO-Platform?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -59,33 +59,33 @@ The table below outlines top commercial SaaS local SEO suites. *Sorted descendin
 
 ## ⚡ Open-Source GitHub Projects
 
-Below are top open-source projects for self-hosted rank tracking, Google Maps scrapers, local SERP APIs, and schema tools. *Sorted descending by GitHub star count.*
+Below are top open-source projects for self-hosted rank tracking, Google Maps scrapers, local SERP APIs, and schema tools. *Sorted descending by GitHub Stars_Count.*
 
-1. **[omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper)** [![GitHub stars](https://img.shields.io/github/stars/omkarcloud/google-maps-scraper?style=social&color=white)](https://github.com/omkarcloud/google-maps-scraper/stargazers)  
+1. **[omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper)** [![GitHub_Stars](https://img.shields.io/github/stars/omkarcloud/google-maps-scraper?style=social&color=white)](https://github.com/omkarcloud/google-maps-scraper/stargazers)  
    🗺️ *High-performance Google Maps scraper and lead generator. Extracts 50+ data points including business details, phone numbers, emails, ratings, and reviews.*
 
-2. **[towfiqi/serpbear](https://github.com/towfiqi/serpbear)** [![GitHub stars](https://img.shields.io/github/stars/towfiqi/serpbear?style=social&color=white)](https://github.com/towfiqi/serpbear/stargazers)  
+2. **[towfiqi/serpbear](https://github.com/towfiqi/serpbear)** [![GitHub_Stars](https://img.shields.io/github/stars/towfiqi/serpbear?style=social&color=white)](https://github.com/towfiqi/serpbear/stargazers)  
    🐻 *Open-source, self-hosted rank tracking web application. Track unlimited keywords, domains, and SERP positions using BYO proxy or SERP data APIs.*
 
-3. **[serpapi/google-search-results-python](https://github.com/serpapi/google-search-results-python)** [![GitHub stars](https://img.shields.io/github/stars/serpapi/google-search-results-python?style=social&color=white)](https://github.com/serpapi/google-search-results-python/stargazers)  
+3. **[serpapi/google-search-results-python](https://github.com/serpapi/google-search-results-python)** [![GitHub_Stars](https://img.shields.io/github/stars/serpapi/google-search-results-python?style=social&color=white)](https://github.com/serpapi/google-search-results-python/stargazers)  
    🐍 *Official Python client library to scrape Google Search, Google Local Pack, and Google Maps SERP results with structured JSON outputs.*
 
-4. **[AgriciDaniel/flow](https://github.com/AgriciDaniel/flow)** [![GitHub stars](https://img.shields.io/github/stars/AgriciDaniel/flow?style=social&color=white)](https://github.com/AgriciDaniel/flow/stargazers)  
+4. **[AgriciDaniel/flow](https://github.com/AgriciDaniel/flow)** [![GitHub_Stars](https://img.shields.io/github/stars/AgriciDaniel/flow?style=social&color=white)](https://github.com/AgriciDaniel/flow/stargazers)  
    🌊 *Evidence-led SEO and local search playbook tailored for the AI-search era (GEO, Perplexity, Gemini, ChatGPT, and Local Map Packs).*
 
-5. **[danishfareed/Google-Maps-SERP](https://github.com/danishfareed/Google-Maps-SERP)** [![GitHub stars](https://img.shields.io/github/stars/danishfareed/Google-Maps-SERP?style=social&color=white)](https://github.com/danishfareed/Google-Maps-SERP/stargazers)  
+5. **[danishfareed/Google-Maps-SERP](https://github.com/danishfareed/Google-Maps-SERP)** [![GitHub_Stars](https://img.shields.io/github/stars/danishfareed/Google-Maps-SERP?style=social&color=white)](https://github.com/danishfareed/Google-Maps-SERP/stargazers)  
    📍 *Open-source Google Maps SERP rank checker utility for analyzing local pack position visibility across targeted geo-coordinates.*
 
-6. **[AgriciDaniel/local-competitor-map](https://github.com/AgriciDaniel/local-competitor-map)** [![GitHub stars](https://img.shields.io/github/stars/AgriciDaniel/local-competitor-map?style=social&color=white)](https://github.com/AgriciDaniel/local-competitor-map/stargazers)  
+6. **[AgriciDaniel/local-competitor-map](https://github.com/AgriciDaniel/local-competitor-map)** [![GitHub_Stars](https://img.shields.io/github/stars/AgriciDaniel/local-competitor-map?style=social&color=white)](https://github.com/AgriciDaniel/local-competitor-map/stargazers)  
    🗺️ *AI-powered local competitor intelligence tool that visualizes local business rivals on a photorealistic Google 3D map environment.*
 
-7. **[IamRamgarhia/All-In-One-Free-SEO-Tool](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool)** [![GitHub stars](https://img.shields.io/github/stars/IamRamgarhia/All-In-One-Free-SEO-Tool?style=social&color=white)](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool/stargazers)  
+7. **[IamRamgarhia/All-In-One-Free-SEO-Tool](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool)** [![GitHub_Stars](https://img.shields.io/github/stars/IamRamgarhia/All-In-One-Free-SEO-Tool?style=social&color=white)](https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool/stargazers)  
    🧰 *Self-hosted, open-source alternative to Ahrefs, Semrush, and Moz containing 99+ SEO utilities including rank tracking and local audit modules.*
 
-8. **[dancolta/seo-drift-monitor](https://github.com/dancolta/seo-drift-monitor)** [![GitHub stars](https://img.shields.io/github/stars/dancolta/seo-drift-monitor?style=social&color=white)](https://github.com/dancolta/seo-drift-monitor/stargazers)  
+8. **[dancolta/seo-drift-monitor](https://github.com/dancolta/seo-drift-monitor)** [![GitHub_Stars](https://img.shields.io/github/stars/dancolta/seo-drift-monitor?style=social&color=white)](https://github.com/dancolta/seo-drift-monitor/stargazers)  
    🛡️ *Automated SEO contract monitor that alerts on unintended canonical, noindex, and LocalBusiness schema markup changes across deployments.*
 
-9. **[GreatStackDev/seo-rank-tracker](https://github.com/GreatStackDev/seo-rank-tracker)** [![GitHub stars](https://img.shields.io/github/stars/GreatStackDev/seo-rank-tracker?style=social&color=white)](https://github.com/GreatStackDev/seo-rank-tracker/stargazers)  
+9. **[GreatStackDev/seo-rank-tracker](https://github.com/GreatStackDev/seo-rank-tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/GreatStackDev/seo-rank-tracker?style=social&color=white)](https://github.com/GreatStackDev/seo-rank-tracker/stargazers)  
    📊 *Modern open-source keyword rank tracker and SEO analyzer interface built with React.js and Tailwind CSS.*
 
 ---
@@ -114,7 +114,7 @@ flowchart TD
 Contributions are welcome! Please follow these guidelines:
 
 1. 🍴 **Fork** the repository.
-2. 📝 Add or update tools in `README.md` following the tabular format for SaaS or star badge format for Open-Source.
+2. 📝 Add or update tools in `README.md` following the tabular format for SaaS or Stars_Badge format for Open-Source.
 3. 🔗 Include exact starting prices, free tier limits, company revenue/valuation details, or stargazers links.
 4. 🚀 Submit a **Pull Request** with a brief summary of additions.
 
