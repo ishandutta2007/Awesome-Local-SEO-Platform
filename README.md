@@ -54,7 +54,7 @@ The table below outlines top commercial SaaS local SEO suites. *Sorted descendin
 | **[Whitespark](https://whitespark.ca/)** | Specialist local SEO toolkit renowned for deep local citation discovery, review generation, and local search position tracking. | **$16.00/month** (Local Citation Finder, billed annually) | Free Account available (3 citation searches/day, 1 project limit) | **~$10M ARR** (~30 team members) |
 | **[GeoRanker](https://www.georanker.com/)** | Real-time geo-located rank tracker and SERP API supporting local pack monitoring, heatmaps, and competitive intelligence. | **$99.00/month** (Pro plan base) | Free Account available (10 credits/month & 14-day full trial) | **~$3M ARR** |
 | **[Local Falcon](https://www.localfalcon.com/)** | Pioneer in visual geo-grid local rank tracking, providing interactive Map Pack visibility heatmaps across customizable grid radii. | **$24.99/month** (Starter plan with 7,500 credits/month) | Free Account with 100 bonus scan credits upon registration | **~$3M ARR** |
-| **[SupaSEO](https://supaseo.dev/)** | Local SEO and AI citation tracking: Google Maps geo-grid rank tracking, Google organic results, and AI answer citations using the customer's own provider keys. | **$61 one-time** (lifetime license; scan data billed by provider at cost) | Free simulated sample workspace on the site | **Independent** (self-funded, single founder) |
+| **[SupaSEO](https://supaseo.dev/)** | Local SEO and AI citation tracking: Google Maps geo-grid rank tracking, Google organic results, and AI answer citations using the customer's own provider keys. | **One-time license** (pay once; scan data billed by provider at cost) | Free simulated sample workspace on the site | **Independent** (self-funded, single founder) |
 
 ---
 
